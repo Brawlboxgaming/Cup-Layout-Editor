@@ -82,7 +82,7 @@
             // 
             // RightArrow
             // 
-            this.RightArrow.Location = new System.Drawing.Point(602, 12);
+            this.RightArrow.Location = new System.Drawing.Point(606, 12);
             this.RightArrow.Name = "RightArrow";
             this.RightArrow.Size = new System.Drawing.Size(29, 334);
             this.RightArrow.TabIndex = 112;
@@ -146,7 +146,7 @@
             this.cupPanel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.cupPanel1.Location = new System.Drawing.Point(47, 12);
             this.cupPanel1.Name = "cupPanel1";
-            this.cupPanel1.Size = new System.Drawing.Size(179, 164);
+            this.cupPanel1.Size = new System.Drawing.Size(182, 164);
             this.cupPanel1.TabIndex = 117;
             this.cupPanel1.Tag = "cup";
             // 
@@ -154,36 +154,36 @@
             // 
             this.cup1Track4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup1Track4.FormattingEnabled = true;
-            this.cup1Track4.Location = new System.Drawing.Point(21, 115);
+            this.cup1Track4.Location = new System.Drawing.Point(3, 115);
             this.cup1Track4.Name = "cup1Track4";
-            this.cup1Track4.Size = new System.Drawing.Size(138, 21);
+            this.cup1Track4.Size = new System.Drawing.Size(176, 21);
             this.cup1Track4.TabIndex = 102;
             // 
             // cup1Track3
             // 
             this.cup1Track3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup1Track3.FormattingEnabled = true;
-            this.cup1Track3.Location = new System.Drawing.Point(21, 88);
+            this.cup1Track3.Location = new System.Drawing.Point(3, 88);
             this.cup1Track3.Name = "cup1Track3";
-            this.cup1Track3.Size = new System.Drawing.Size(138, 21);
+            this.cup1Track3.Size = new System.Drawing.Size(176, 21);
             this.cup1Track3.TabIndex = 101;
             // 
             // cup1Track2
             // 
             this.cup1Track2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup1Track2.FormattingEnabled = true;
-            this.cup1Track2.Location = new System.Drawing.Point(21, 61);
+            this.cup1Track2.Location = new System.Drawing.Point(3, 61);
             this.cup1Track2.Name = "cup1Track2";
-            this.cup1Track2.Size = new System.Drawing.Size(138, 21);
+            this.cup1Track2.Size = new System.Drawing.Size(176, 21);
             this.cup1Track2.TabIndex = 100;
             // 
             // cup1Track1
             // 
             this.cup1Track1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup1Track1.FormattingEnabled = true;
-            this.cup1Track1.Location = new System.Drawing.Point(21, 34);
+            this.cup1Track1.Location = new System.Drawing.Point(3, 34);
             this.cup1Track1.Name = "cup1Track1";
-            this.cup1Track1.Size = new System.Drawing.Size(138, 21);
+            this.cup1Track1.Size = new System.Drawing.Size(176, 21);
             this.cup1Track1.TabIndex = 99;
             // 
             // cup1Label
@@ -208,7 +208,7 @@
             this.cupPanel2.Cursor = System.Windows.Forms.Cursors.Default;
             this.cupPanel2.Location = new System.Drawing.Point(232, 12);
             this.cupPanel2.Name = "cupPanel2";
-            this.cupPanel2.Size = new System.Drawing.Size(179, 164);
+            this.cupPanel2.Size = new System.Drawing.Size(182, 164);
             this.cupPanel2.TabIndex = 118;
             this.cupPanel2.Tag = "cup";
             // 
@@ -216,36 +216,36 @@
             // 
             this.cup2Track4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup2Track4.FormattingEnabled = true;
-            this.cup2Track4.Location = new System.Drawing.Point(21, 115);
+            this.cup2Track4.Location = new System.Drawing.Point(3, 115);
             this.cup2Track4.Name = "cup2Track4";
-            this.cup2Track4.Size = new System.Drawing.Size(138, 21);
+            this.cup2Track4.Size = new System.Drawing.Size(176, 21);
             this.cup2Track4.TabIndex = 102;
             // 
             // cup2Track3
             // 
             this.cup2Track3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup2Track3.FormattingEnabled = true;
-            this.cup2Track3.Location = new System.Drawing.Point(21, 88);
+            this.cup2Track3.Location = new System.Drawing.Point(3, 88);
             this.cup2Track3.Name = "cup2Track3";
-            this.cup2Track3.Size = new System.Drawing.Size(138, 21);
+            this.cup2Track3.Size = new System.Drawing.Size(176, 21);
             this.cup2Track3.TabIndex = 101;
             // 
             // cup2Track2
             // 
             this.cup2Track2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup2Track2.FormattingEnabled = true;
-            this.cup2Track2.Location = new System.Drawing.Point(21, 61);
+            this.cup2Track2.Location = new System.Drawing.Point(3, 61);
             this.cup2Track2.Name = "cup2Track2";
-            this.cup2Track2.Size = new System.Drawing.Size(138, 21);
+            this.cup2Track2.Size = new System.Drawing.Size(176, 21);
             this.cup2Track2.TabIndex = 100;
             // 
             // cup2Track1
             // 
             this.cup2Track1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup2Track1.FormattingEnabled = true;
-            this.cup2Track1.Location = new System.Drawing.Point(21, 34);
+            this.cup2Track1.Location = new System.Drawing.Point(3, 34);
             this.cup2Track1.Name = "cup2Track1";
-            this.cup2Track1.Size = new System.Drawing.Size(138, 21);
+            this.cup2Track1.Size = new System.Drawing.Size(176, 21);
             this.cup2Track1.TabIndex = 99;
             // 
             // cup2Label
@@ -270,7 +270,7 @@
             this.cupPanel3.Cursor = System.Windows.Forms.Cursors.Default;
             this.cupPanel3.Location = new System.Drawing.Point(417, 12);
             this.cupPanel3.Name = "cupPanel3";
-            this.cupPanel3.Size = new System.Drawing.Size(179, 164);
+            this.cupPanel3.Size = new System.Drawing.Size(182, 164);
             this.cupPanel3.TabIndex = 119;
             this.cupPanel3.Tag = "cup";
             // 
@@ -278,36 +278,36 @@
             // 
             this.cup3Track4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup3Track4.FormattingEnabled = true;
-            this.cup3Track4.Location = new System.Drawing.Point(21, 115);
+            this.cup3Track4.Location = new System.Drawing.Point(3, 115);
             this.cup3Track4.Name = "cup3Track4";
-            this.cup3Track4.Size = new System.Drawing.Size(138, 21);
+            this.cup3Track4.Size = new System.Drawing.Size(176, 21);
             this.cup3Track4.TabIndex = 102;
             // 
             // cup3Track3
             // 
             this.cup3Track3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup3Track3.FormattingEnabled = true;
-            this.cup3Track3.Location = new System.Drawing.Point(21, 88);
+            this.cup3Track3.Location = new System.Drawing.Point(3, 88);
             this.cup3Track3.Name = "cup3Track3";
-            this.cup3Track3.Size = new System.Drawing.Size(138, 21);
+            this.cup3Track3.Size = new System.Drawing.Size(176, 21);
             this.cup3Track3.TabIndex = 101;
             // 
             // cup3Track2
             // 
             this.cup3Track2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup3Track2.FormattingEnabled = true;
-            this.cup3Track2.Location = new System.Drawing.Point(21, 61);
+            this.cup3Track2.Location = new System.Drawing.Point(3, 61);
             this.cup3Track2.Name = "cup3Track2";
-            this.cup3Track2.Size = new System.Drawing.Size(138, 21);
+            this.cup3Track2.Size = new System.Drawing.Size(176, 21);
             this.cup3Track2.TabIndex = 100;
             // 
             // cup3Track1
             // 
             this.cup3Track1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup3Track1.FormattingEnabled = true;
-            this.cup3Track1.Location = new System.Drawing.Point(21, 34);
+            this.cup3Track1.Location = new System.Drawing.Point(3, 34);
             this.cup3Track1.Name = "cup3Track1";
-            this.cup3Track1.Size = new System.Drawing.Size(138, 21);
+            this.cup3Track1.Size = new System.Drawing.Size(176, 21);
             this.cup3Track1.TabIndex = 99;
             // 
             // cup3Label
@@ -332,7 +332,7 @@
             this.cupPanel4.Cursor = System.Windows.Forms.Cursors.Default;
             this.cupPanel4.Location = new System.Drawing.Point(47, 182);
             this.cupPanel4.Name = "cupPanel4";
-            this.cupPanel4.Size = new System.Drawing.Size(179, 164);
+            this.cupPanel4.Size = new System.Drawing.Size(182, 164);
             this.cupPanel4.TabIndex = 120;
             this.cupPanel4.Tag = "cup";
             // 
@@ -340,36 +340,36 @@
             // 
             this.cup4Track4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup4Track4.FormattingEnabled = true;
-            this.cup4Track4.Location = new System.Drawing.Point(21, 115);
+            this.cup4Track4.Location = new System.Drawing.Point(3, 115);
             this.cup4Track4.Name = "cup4Track4";
-            this.cup4Track4.Size = new System.Drawing.Size(138, 21);
+            this.cup4Track4.Size = new System.Drawing.Size(176, 21);
             this.cup4Track4.TabIndex = 102;
             // 
             // cup4Track3
             // 
             this.cup4Track3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup4Track3.FormattingEnabled = true;
-            this.cup4Track3.Location = new System.Drawing.Point(21, 88);
+            this.cup4Track3.Location = new System.Drawing.Point(3, 88);
             this.cup4Track3.Name = "cup4Track3";
-            this.cup4Track3.Size = new System.Drawing.Size(138, 21);
+            this.cup4Track3.Size = new System.Drawing.Size(176, 21);
             this.cup4Track3.TabIndex = 101;
             // 
             // cup4Track2
             // 
             this.cup4Track2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup4Track2.FormattingEnabled = true;
-            this.cup4Track2.Location = new System.Drawing.Point(21, 61);
+            this.cup4Track2.Location = new System.Drawing.Point(3, 61);
             this.cup4Track2.Name = "cup4Track2";
-            this.cup4Track2.Size = new System.Drawing.Size(138, 21);
+            this.cup4Track2.Size = new System.Drawing.Size(176, 21);
             this.cup4Track2.TabIndex = 100;
             // 
             // cup4Track1
             // 
             this.cup4Track1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup4Track1.FormattingEnabled = true;
-            this.cup4Track1.Location = new System.Drawing.Point(21, 34);
+            this.cup4Track1.Location = new System.Drawing.Point(3, 34);
             this.cup4Track1.Name = "cup4Track1";
-            this.cup4Track1.Size = new System.Drawing.Size(138, 21);
+            this.cup4Track1.Size = new System.Drawing.Size(176, 21);
             this.cup4Track1.TabIndex = 99;
             // 
             // cup4Label
@@ -394,7 +394,7 @@
             this.cupPanel5.Cursor = System.Windows.Forms.Cursors.Default;
             this.cupPanel5.Location = new System.Drawing.Point(232, 182);
             this.cupPanel5.Name = "cupPanel5";
-            this.cupPanel5.Size = new System.Drawing.Size(179, 164);
+            this.cupPanel5.Size = new System.Drawing.Size(182, 164);
             this.cupPanel5.TabIndex = 121;
             this.cupPanel5.Tag = "cup";
             // 
@@ -402,36 +402,36 @@
             // 
             this.cup5Track4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup5Track4.FormattingEnabled = true;
-            this.cup5Track4.Location = new System.Drawing.Point(21, 115);
+            this.cup5Track4.Location = new System.Drawing.Point(3, 115);
             this.cup5Track4.Name = "cup5Track4";
-            this.cup5Track4.Size = new System.Drawing.Size(138, 21);
+            this.cup5Track4.Size = new System.Drawing.Size(176, 21);
             this.cup5Track4.TabIndex = 102;
             // 
             // cup5Track3
             // 
             this.cup5Track3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup5Track3.FormattingEnabled = true;
-            this.cup5Track3.Location = new System.Drawing.Point(21, 88);
+            this.cup5Track3.Location = new System.Drawing.Point(3, 88);
             this.cup5Track3.Name = "cup5Track3";
-            this.cup5Track3.Size = new System.Drawing.Size(138, 21);
+            this.cup5Track3.Size = new System.Drawing.Size(176, 21);
             this.cup5Track3.TabIndex = 101;
             // 
             // cup5Track2
             // 
             this.cup5Track2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup5Track2.FormattingEnabled = true;
-            this.cup5Track2.Location = new System.Drawing.Point(21, 61);
+            this.cup5Track2.Location = new System.Drawing.Point(3, 61);
             this.cup5Track2.Name = "cup5Track2";
-            this.cup5Track2.Size = new System.Drawing.Size(138, 21);
+            this.cup5Track2.Size = new System.Drawing.Size(176, 21);
             this.cup5Track2.TabIndex = 100;
             // 
             // cup5Track1
             // 
             this.cup5Track1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup5Track1.FormattingEnabled = true;
-            this.cup5Track1.Location = new System.Drawing.Point(21, 34);
+            this.cup5Track1.Location = new System.Drawing.Point(3, 34);
             this.cup5Track1.Name = "cup5Track1";
-            this.cup5Track1.Size = new System.Drawing.Size(138, 21);
+            this.cup5Track1.Size = new System.Drawing.Size(176, 21);
             this.cup5Track1.TabIndex = 99;
             // 
             // cup5Label
@@ -456,7 +456,7 @@
             this.cupPanel6.Cursor = System.Windows.Forms.Cursors.Default;
             this.cupPanel6.Location = new System.Drawing.Point(417, 182);
             this.cupPanel6.Name = "cupPanel6";
-            this.cupPanel6.Size = new System.Drawing.Size(179, 164);
+            this.cupPanel6.Size = new System.Drawing.Size(182, 164);
             this.cupPanel6.TabIndex = 122;
             this.cupPanel6.Tag = "cup";
             // 
@@ -464,36 +464,36 @@
             // 
             this.cup6Track4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup6Track4.FormattingEnabled = true;
-            this.cup6Track4.Location = new System.Drawing.Point(21, 115);
+            this.cup6Track4.Location = new System.Drawing.Point(3, 115);
             this.cup6Track4.Name = "cup6Track4";
-            this.cup6Track4.Size = new System.Drawing.Size(138, 21);
+            this.cup6Track4.Size = new System.Drawing.Size(176, 21);
             this.cup6Track4.TabIndex = 102;
             // 
             // cup6Track3
             // 
             this.cup6Track3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup6Track3.FormattingEnabled = true;
-            this.cup6Track3.Location = new System.Drawing.Point(21, 88);
+            this.cup6Track3.Location = new System.Drawing.Point(3, 88);
             this.cup6Track3.Name = "cup6Track3";
-            this.cup6Track3.Size = new System.Drawing.Size(138, 21);
+            this.cup6Track3.Size = new System.Drawing.Size(176, 21);
             this.cup6Track3.TabIndex = 101;
             // 
             // cup6Track2
             // 
             this.cup6Track2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup6Track2.FormattingEnabled = true;
-            this.cup6Track2.Location = new System.Drawing.Point(21, 61);
+            this.cup6Track2.Location = new System.Drawing.Point(3, 61);
             this.cup6Track2.Name = "cup6Track2";
-            this.cup6Track2.Size = new System.Drawing.Size(138, 21);
+            this.cup6Track2.Size = new System.Drawing.Size(176, 21);
             this.cup6Track2.TabIndex = 100;
             // 
             // cup6Track1
             // 
             this.cup6Track1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cup6Track1.FormattingEnabled = true;
-            this.cup6Track1.Location = new System.Drawing.Point(21, 34);
+            this.cup6Track1.Location = new System.Drawing.Point(3, 34);
             this.cup6Track1.Name = "cup6Track1";
-            this.cup6Track1.Size = new System.Drawing.Size(138, 21);
+            this.cup6Track1.Size = new System.Drawing.Size(176, 21);
             this.cup6Track1.TabIndex = 99;
             // 
             // cup6Label
@@ -530,7 +530,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 392);
+            this.ClientSize = new System.Drawing.Size(647, 392);
             this.Controls.Add(this.import);
             this.Controls.Add(this.export);
             this.Controls.Add(this.cupPanel6);
@@ -543,7 +543,9 @@
             this.Controls.Add(this.cupCountLabel);
             this.Controls.Add(this.LeftArrow);
             this.Controls.Add(this.RightArrow);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Main";
             this.Text = "Cup Layout Editor";
             ((System.ComponentModel.ISupportInitialize)(this.cupCount)).EndInit();
