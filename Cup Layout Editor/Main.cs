@@ -18,7 +18,7 @@ namespace CupLayoutEditor
     public partial class Main : Form
     {
         readonly List<Panel> cupPanels;
-        List<Track> ctgpTracks = new List<Track>() { new Track() { Name = "Select a track...", SlotID = "0xFE" } };
+        List<Track> ctgpTracks = new List<Track>() { new Track() { Name = "Select a track...", SlotID = "0x00" } };
         int currentPage;
         List<List<Cup>> pages;
         public Main()
@@ -67,9 +67,9 @@ namespace CupLayoutEditor
 
             cupPanels = new List<Panel> { cupPanel1, cupPanel2, cupPanel3, cupPanel4, cupPanel5, cupPanel6 };
 
-            new Track() { Name = "Select a track...", SlotID = "0xFE" };
+            new Track() { Name = "Select a track...", SlotID = "0x00" };
 
-            pages = new List<List<Cup>> { new List<Cup> { new Cup(new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }) } };
+            pages = new List<List<Cup>> { new List<Cup> { new Cup(new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }) } };
 
             SetVisiblePanels();
         }
@@ -192,14 +192,14 @@ namespace CupLayoutEditor
             {
                 while (cupCountCalc > pages[pages.Count - 1].Count)
                 {
-                    pages[pages.Count - 1].Add(new Cup(new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }));
+                    pages[pages.Count - 1].Add(new Cup(new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }));
                 }
 
-                pages.Add(new List<Cup> { new Cup(new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }) });
+                pages.Add(new List<Cup> { new Cup(new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }) });
             }
             while (cupCountCalc > pages[pages.Count - 1].Count)
             {
-                pages[pages.Count - 1].Add(new Cup(new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }));
+                pages[pages.Count - 1].Add(new Cup(new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }));
             }
 
             while (pageCountCalc < pages.Count)
@@ -258,22 +258,22 @@ namespace CupLayoutEditor
                 {
                     for (int j = 0; j < pages[i].Count; j++)
                     {
-                        if (pages[i][j].Track1.SlotID == "0xFE")
+                        if (pages[i][j].Track1.SlotID == "0x00")
                         {
                             MessageBox.Show($"Cup {i * 6 + j + 1} is missing a track in slot 1.", "Error");
                             return;
                         }
-                        if (pages[i][j].Track2.SlotID == "0xFE")
+                        if (pages[i][j].Track2.SlotID == "0x00")
                         {
                             MessageBox.Show($"Cup {i * 6 + j + 1} is missing a track in slot 2.", "Error");
                             return;
                         }
-                        if (pages[i][j].Track3.SlotID == "0xFE")
+                        if (pages[i][j].Track3.SlotID == "0x00")
                         {
                             MessageBox.Show($"Cup {i * 6 + j + 1} is missing a track in slot 3.", "Error");
                             return;
                         }
-                        if (pages[i][j].Track4.SlotID == "0xFE")
+                        if (pages[i][j].Track4.SlotID == "0x00")
                         {
                             MessageBox.Show($"Cup {i * 6 + j + 1} is missing a track in slot 4.", "Error");
                             return;
@@ -297,10 +297,6 @@ namespace CupLayoutEditor
                             binWriter.Write(Convert.ToByte(Convert.ToInt32(pages[i][j].Track3.SlotID, 16)));
                             binWriter.Write(Convert.ToByte(Convert.ToInt32(pages[i][j].Track4.SlotID, 16)));
                         }
-                    }
-                    if (stream.Position != 224)
-                    {
-                        binWriter.Write(Convert.ToByte(0xAA));
                     }
                     while (stream.Position != 224)
                     {
@@ -331,7 +327,7 @@ namespace CupLayoutEditor
                     if (header == "CUP2")
                     {
                         var file = binReader.ReadBytes(216);
-                        pages = new List<List<Cup>> { new List<Cup> { new Cup(new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }) } };
+                        pages = new List<List<Cup>> { new List<Cup> { new Cup(new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }) } };
 
                         List<string> inputtedTracks = new List<string>();
 
@@ -344,7 +340,6 @@ namespace CupLayoutEditor
                             }
                             else
                             {
-                                inputtedTracks.RemoveAt(inputtedTracks.Count - 1);
                                 break;
                             }
                         }
@@ -358,16 +353,16 @@ namespace CupLayoutEditor
 
                         while (pageCount > pages.Count)
                         {
-                            while (fileCupCount > pages[pages.Count - 1].Count)
+                            while (inputtedTracks.Count / 4 / pageCount > pages[pages.Count - 1].Count)
                             {
-                                pages[pages.Count - 1].Add(new Cup(new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }));
+                                pages[pages.Count - 1].Add(new Cup(new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }));
                             }
 
-                            pages.Add(new List<Cup> { new Cup(new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }) });
+                            pages.Add(new List<Cup> { new Cup(new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }) });
                         }
-                        while (fileCupCount > pages[pages.Count - 1].Count)
+                        while (inputtedTracks.Count / 4 / pageCount > pages[pages.Count - 1].Count)
                         {
-                            pages[pages.Count - 1].Add(new Cup(new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }, new Track() { Name = "Select a track...", SlotID = "0xFE" }));
+                            pages[pages.Count - 1].Add(new Cup(new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }, new Track() { Name = "Select a track...", SlotID = "0x00" }));
                         }
 
                         while (pageCount < pages.Count)
@@ -390,28 +385,19 @@ namespace CupLayoutEditor
                                 Track Track4 = new Track();
                                 for (int k = 0; k < ctgpTracks.Count; k++)
                                 {
-                                    if (inputtedTracks[i * 6 + j * 4] == ctgpTracks[k].SlotID)
+                                    if (inputtedTracks[i * 6 * 4 + j * 4] == ctgpTracks[k].SlotID)
                                     {
                                         Track1 = new Track() { Name = ctgpTracks[k].Name, SlotID = ctgpTracks[k].SlotID };
                                     }
-                                }
-                                for (int k = 0; k < ctgpTracks.Count; k++)
-                                {
-                                    if (inputtedTracks[i * 6 + j * 4 + 1] == ctgpTracks[k].SlotID)
+                                    if (inputtedTracks[i * 6 * 4 + j * 4 + 1] == ctgpTracks[k].SlotID)
                                     {
                                         Track2 = new Track() { Name = ctgpTracks[k].Name, SlotID = ctgpTracks[k].SlotID };
                                     }
-                                }
-                                for (int k = 0; k < ctgpTracks.Count; k++)
-                                {
-                                    if (inputtedTracks[i * 6 + j * 4 + 2] == ctgpTracks[k].SlotID)
+                                    if (inputtedTracks[i * 6 * 4 + j * 4 + 2] == ctgpTracks[k].SlotID)
                                     {
                                         Track3 = new Track() { Name = ctgpTracks[k].Name, SlotID = ctgpTracks[k].SlotID };
                                     }
-                                }
-                                for (int k = 0; k < ctgpTracks.Count; k++)
-                                {
-                                    if (inputtedTracks[i * 6 + j * 4 + 3] == ctgpTracks[k].SlotID)
+                                    if (inputtedTracks[i * 6 * 4 + j * 4 + 3] == ctgpTracks[k].SlotID)
                                     {
                                         Track4 = new Track() { Name = ctgpTracks[k].Name, SlotID = ctgpTracks[k].SlotID };
                                     }
