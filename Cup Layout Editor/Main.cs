@@ -26,7 +26,7 @@ namespace CupLayoutEditor
             InitializeComponent();
 
             WebClient webClient = new WebClient();
-            foreach (var track in JsonConvert.DeserializeObject<List<Track>>(webClient.DownloadString("https://brawlbox.xyz/MKBB/cts.json")))
+            foreach (var track in JsonConvert.DeserializeObject<List<Track>>(webClient.DownloadString("https://mkbb.brawlbox.co.uk/api/cts.json")))
             {
                 ctgpTracks.Add(track);
             }
