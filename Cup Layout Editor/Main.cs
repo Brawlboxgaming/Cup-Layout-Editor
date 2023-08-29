@@ -30,13 +30,15 @@ namespace CupLayoutEditor
             {
                 ctgpTracks.Add(track);
             }
-            for (int i = 0; i < ctgpTracks.Count; i++)
+            for (int i = 0; i < ctgpTracks.Count-1; i++)
             {
                 if (ctgpTracks[i].Name == ctgpTracks[i + 1].Name)
                 {
                     ctgpTracks.Remove(ctgpTracks[i + 1]);
+                    i--;
                 }
             }
+            ctgpTracks = ctgpTracks.OrderBy(x => x.Name).ToList();
 
             BindItemCollection(cup1Track1);
             BindItemCollection(cup1Track2);
